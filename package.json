@@ -43,8 +43,5 @@
   },
   "peerDependencies": {
     "hardhat": "^2.0.0"
-  },
-  "dependencies": {
-    "abi2solidity": "https://github.com/piketrcechillas/abi2solidity.git"
   }
 }
