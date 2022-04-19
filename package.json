@@ -18,8 +18,7 @@
     "lint": "tslint --config tslint.json --project tsconfig.json",
     "test": "mocha --exit --recursive 'test/**/*.test.ts'",
     "build": "tsc",
-    "watch": "tsc -w",
-    "postinstall": "cd ./node_modules/abi2solidity && yarn install && npm run build"
+    "watch": "tsc -w"
   },
   "files": [
     "dist/",
