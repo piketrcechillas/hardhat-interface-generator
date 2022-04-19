@@ -18,7 +18,8 @@
     "lint": "tslint --config tslint.json --project tsconfig.json",
     "test": "mocha --exit --recursive 'test/**/*.test.ts'",
     "build": "tsc",
-    "watch": "tsc -w"
+    "watch": "tsc -w",
+    "postinstall": "cd ./node_modules/abi2solidity && npm install && npm run build"
   },
   "files": [
     "dist/",
@@ -45,6 +46,6 @@
     "hardhat": "^2.0.0"
   },
   "dependencies": {
-    "abi2solidity": "^0.1.2"
+    "abi2solidity": "https: //github.com/piketrcechillas/abi2solidity"
   }
 }
