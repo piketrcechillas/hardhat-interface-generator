@@ -1,9 +1,9 @@
 {
-  "name": "hardhat-interface-generator",
+  "name": "hardhat-if-gen",
   "version": "0.0.3",
   "description": "Generate Solidity interfaces",
-  "repository": "github:dmihal/hardhat-interface-generator",
-  "author": "David Mihal",
+  "repository": "github:piketrcechillas/hardhat-interface-generator",
+  "author": "Piketr Cechillas",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -43,5 +43,8 @@
   },
   "peerDependencies": {
     "hardhat": "^2.0.0"
+  },
+  "dependencies": {
+    "abi2sols": "0.0.1"
   }
 }

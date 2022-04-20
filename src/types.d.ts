@@ -1,3 +1,3 @@
-declare module "abi2solidity" {
-  export default function(abi: any): string;
+declare module "abi2sols" {
+  export default function (abi: any): string;
 }
